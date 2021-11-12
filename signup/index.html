@@ -27,21 +27,36 @@
 
 
 <body>
+  <br><br><br><br>
+ 
   <div class="row">
 
     <div class="col-lg-4">
 
     </div>
     <div class="col-lg-4 myMargin">
-      <form class="row g-3">
-        <div class="col-md-6">
+      <form class="row g-3" action="#" onsubmit="return validate()">
+        <div class="email col-md-6">
+          
           <label for="inputEmail4" class="form-label">Email</label>
           <input type="email" class="form-control" id="inputEmail4">
+          
         </div>
         <div class="col-md-6">
           <label for="inputPassword4" class="form-label">Password</label>
           <input type="password" class="form-control" id="inputPassword4">
         </div>
+        <div class="col-md-3">
+          <label for="inputCode" class="form-label">code</label>
+          <select id="inputCode" class="form-select">
+            <option selected>+91</option>
+          </select>  
+        </div>
+        <div class="col-md-9">
+          <label for="inputPhone4" class="form-label">Phone</label>
+          <input type="text" class="form-control" id="inputPhone4">
+        </div>
+
         <div class="col-12">
           <label for="inputAddress" class="form-label">Address</label>
           <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
@@ -58,7 +73,21 @@
           <label for="inputState" class="form-label">State</label>
           <select id="inputState" class="form-select">
             <option selected>select...</option>
-            <option>Trivandrum</option>
+            <option value="">Trivandrum</option>
+            <option value="">Kollam</option>
+            <option value="">Pathanamthitta</option>
+            <option value="">Alappuzha</option>
+            <option value="">Kottayam</option>
+            <option value="">Idukki</option>
+            <option value="">Ernakulam</option>
+            <option value="">Thrissur</option>
+            <option value="">Palakkad</option>
+            <option value="">Malappuram</option>
+            <option value="">Kozhikkode</option>
+            <option value="">Wayanad</option>
+            <option value="">Kannur</option>
+            <option value="">Kazargod</option>
+          
           </select>
         </div>
         <div class="col-md-2">
@@ -79,6 +108,7 @@
       </form>
     </div>
   </div>
+  <script src="form.js"></script>
   
 </body>
 
