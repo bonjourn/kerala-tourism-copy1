@@ -1,26 +1,23 @@
-h1{
-    color: green;
-    font-style: inherit;
+
+.carousel{
+    height: 500px;
 }
-.header{
-   
+.carousel img{
+    height: 500px;
+}
+.content{
+    text-align: justify;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
+.content .head h4{
+    padding-bottom: 5%;
+
 
 }
-.header-tag{
-    background-color: black;
-}
-.header-tag a{
-    float: right;
-    margin-right: 55px;
-    text-decoration: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: black;
-    border: 1px solid black;
-    padding: 8px;
-    margin-right: 8px;
-}
-.header-tag a:hover{
-    background-color: black;
-    color: white;
-    border-color: white;
+.carousel #carouselExampleCaptions .carousel-inner .carousel-item img{
+    height: 500px;
+    
 }
