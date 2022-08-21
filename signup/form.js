@@ -91,7 +91,7 @@ function pwdstrength() {
     }
      else {
         pwd.style.border="2px solid red";
-        pwdstr.innerHTML = '<span style="color:red">Weak!</span>';
+        pwdstr.innerHTML = '<span style="color:red">Poor!</span>';
         pwdstr.style="color:red"
     }       
 }        
